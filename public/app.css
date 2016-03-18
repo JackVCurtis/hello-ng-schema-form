@@ -1,0 +1,44 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.content-container {
+  flex: 1;
+  flex-direction: row;
+}
+
+.content {
+  padding: 0 100px;
+}
+
+.side-nav {
+  padding: 1px 0;
+  background-color: #E3E3E3;
+  /* 12em is the width of the columns */
+  flex: 0 0 12em;
+  /* put the nav on the left */
+  order: -1;
+}
+
+.side-nav-title {
+  margin: 0;
+  padding: 18px;
+}
+
+header {
+  padding: 1px 10px;
+  border-bottom: 1px solid #ddd;
+}
+.header-title {
+  margin: 0;
+  padding: 18px;
+}
+
+footer {}

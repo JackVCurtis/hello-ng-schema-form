@@ -1,0 +1,23 @@
+{
+  "name": "monster-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app": "webpack-dev-server --inline --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.7.2",
+    "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "html-loader": "^0.4.3",
+    "jshint": "^2.9.1",
+    "jshint-loader": "^0.8.3",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14"
+  }
+}
